@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  position: relative;
+}
+
+body{
+  background: rgba(0,0,0,0.87);
+  color: white;
+  padding: 20px;
+}
+
+.root{
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  padding: 20px;
+}
+
+.github-link{
+  text-align: center;
+}
+
+.name-container{
+  text-align: center;
+  font-size: 3em;
+}
+
+.image-container{
+  max-width: 60%;
+  margin: 20px
+}
+
+.image-profile, .description{
+
+  max-width: 600px;
+  border-radius: 50px
+}
+.description{
+  padding: 20px;
+  margin: 20px;
+}
+
+a:link, a:visited {
+  background-color: #333;
+  color: white;
+  border: 2px solid #888;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #444;
+  color: white;
+}
