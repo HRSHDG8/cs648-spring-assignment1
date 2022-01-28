@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HRSHDG8/cs648-mern-assignment1.git"
+    "url": "git+https://github.com/HRSHDG8/cs648-spring-assignment1.git"
   },
   "author": "Harsh Maheshwari (8250270267)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/HRSHDG8/cs648-mern-assignment1/issues"
+    "url": "https://github.com/HRSHDG8/cs648-spring-assignment1/issues"
   },
-  "homepage": "https://github.com/HRSHDG8/cs648-mern-assignment1#readme",
+  "homepage": "https://github.com/HRSHDG8/cs648-spring-assignment1#readme",
   "dependencies": {
     "express": "^4.17.1"
   },
