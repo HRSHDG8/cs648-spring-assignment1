@@ -1,4 +1,4 @@
-const renderElement = (
+const App=()=> (
     <>
         <div className="root">
             <div className="container">
@@ -29,4 +29,4 @@ const renderElement = (
     </>
 );
 
-ReactDOM.render(renderElement, document.getElementById("contents"));
+ReactDOM.render(<App/>, document.getElementById("root"));

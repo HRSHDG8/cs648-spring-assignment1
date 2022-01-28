@@ -5,16 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run compile && nodemon -w server server/server.js",
-    "compile": "babel src --out-dir public",
-    "compile:watch": "npm run compile -- -w",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "babel --presets @babel/preset-react src --out-dir public",
+    "watch": "npm run compile -- -w"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HRSHDG8/cs648-spring-assignment1.git"
   },
   "author": "Harsh Maheshwari (8250270267)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/HRSHDG8/cs648-spring-assignment1/issues"
   },

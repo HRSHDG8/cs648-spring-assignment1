@@ -1,6 +1,4 @@
-"use strict";
-
-var renderElement = /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", {
+const App = () => /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", {
   className: "root"
 }, /*#__PURE__*/React.createElement("div", {
   className: "container"
@@ -19,4 +17,5 @@ var renderElement = /*#__PURE__*/React.createElement(React.Fragment, null, /*#__
 }, /*#__PURE__*/React.createElement("a", {
   href: "https://github.com/HRSHDG8"
 }, "Check out my github profile")))));
-ReactDOM.render(renderElement, document.getElementById("contents"));
+
+ReactDOM.render( /*#__PURE__*/React.createElement(App, null), document.getElementById("root"));
